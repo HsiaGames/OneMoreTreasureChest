@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+h2, h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color:bisque;
+}
+
+p{
+    text-align: center;
+    
+    padding: 20px 100px 0px 100px;
+}
+
+ul{
+    list-style-type: circle;
+    padding: 5px;   
+    background-color: red;
+    list-style-position:inside;
+}
+
+ol{
+    list-style-type:lower-alpha;
+    padding: 5px;   
+    background-color: red;
+    list-style-position:inside;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
